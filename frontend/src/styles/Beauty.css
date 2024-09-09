@@ -1,0 +1,209 @@
+.beauty_main>h1{
+    letter-spacing: 0.5rem;
+
+}
+
+.beauty_div1 h1{
+    letter-spacing: 0.5rem;
+}
+
+.beauty_main{
+   width: 100vw; 
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+
+.beauty_div1 p{
+    color: black;
+    line-height: 25px;
+
+}
+.beauty_div1>h1{
+ text-align: center;
+ text-transform: uppercase;
+ margin-bottom: 3vh;
+}
+.beauty_div1>p{
+    margin-bottom: 5vh;
+    width: 80%;
+    text-align: center;
+}
+.beauty_div1>div>h1{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.beauty_div1>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.beauty_div1>div>h1{
+    margin-bottom: 3vh;
+    margin-top: 10vh;
+}
+.beauty_div1>div>p{
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    width: 60%;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+.radio_btton_beauty{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio_btton_beauty>div{
+    background-color: rgba(229, 236, 241, 0.659);
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.radio_beauty_div2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+.radio_beauty_div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.radio_beauty_div1>img{
+    width: 60vw;
+    opacity: 40%;
+
+
+}
+.radio_beauty_div2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.radio_beauty_div2>p{
+    height: fit-content;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: black;
+    letter-spacing: 1.5px;
+    transition: color 0.3s ease-in-out;
+    transition:  background-color 0.3s ease-in-out;
+    cursor: pointer;
+
+
+
+
+}
+.radio_btn_beauty.true{
+    background-color: rgba(156, 195, 202, 0.651);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+.beauty_div1{
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ////////////////////brightning///////////////////// */
+.radio_btton_beauty.brightning{
+    background-color: #f7f8ff;
+}
+.beauty_div1.brightning{
+    background-color: #f7f8ff;
+}
+/* ////////////////////antiaging///////////////////// */
+.radio_btton_beauty.antiaging{
+    background-color: #f7f8ff;
+}
+.beauty_div1.antiaging{
+    background-color: #f7f8ff;
+}
+/* ////////////////////skintone///////////////////// */
+.radio_btton_beauty.skintone{
+    background-color: #f7f8ff;
+}
+.beauty_div1.skintone{
+    background-color: #f7f8ff;
+}
+/* ////////////////////acne///////////////////// */
+.radio_btton_beauty.acne{
+    background-color: #f7f8ff;
+}
+.beauty_div1.acne{
+    background-color: #f7f8ff;
+}
+@media only screen and (max-width: 480px) {
+    
+.radio_btton_beauty{
+    height: 15vh;
+}
+.radio_btton_beauty>div{
+    width: 95vw;
+    height: 40px;
+
+}
+.radio_btton_beauty>div>h1{
+    font-size: calc(0.25rem + 1vw);
+
+}
+
+.beauty_div1 p{
+    line-height: 15px;
+    margin-bottom: 5px;
+    width: 95%;
+    font-size: 0.6rem;
+    text-align: center;
+
+}
+.beauty_div1>h1{
+ margin-bottom: 5px;
+ font-size: 1rem;
+ letter-spacing: 2px;
+}
+.beauty_div1>p{
+    margin-bottom: 5px;
+    width: 95%;
+    font-size: 0.6rem;
+    text-align: center;
+}
+.beauty_div1>div>h1{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+.beauty_div1>div>p{
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    width: 95%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.beauty_div1>div>h1{
+    margin: 15px 0;
+}
+}
